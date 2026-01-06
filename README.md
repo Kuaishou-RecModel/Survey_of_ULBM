@@ -50,7 +50,7 @@ This survey covers a wide range of topics relevant to ULBM, including:
 
 #### Algorithmic
 
-ULBM commonly adopts a two-stage paradigm of preprocess first, encode later to reduce the scale of user behavior sequences and achieve a balance between efficiency and effectiveness. This paradigm can be further categorized into search-based methods and compression-based methods. In this context, the General Search Unit (GSU) and the Interest Reduction Unit (IRU) serve as key components for improving efficiency.
+ULBM commonly adopts a two-stage paradigm of *preprocess first, encode later* to reduce the scale of user behavior sequences and achieve a balance between efficiency and effectiveness. This paradigm can be further categorized into search-based methods and compression-based methods. In this context, the General Search Unit (GSU) and the Interest Reduction Unit (IRU) serve as key components for improving efficiency.
 
 Trend chart of existing ULBM work on algorithmic optimizations:
 
