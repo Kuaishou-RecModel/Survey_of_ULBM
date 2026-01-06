@@ -16,9 +16,6 @@ We will continue to track and summarize emerging ULBM research, with particular 
     - [Algorithmic](#algorithmic)
     - [Infrastructure](#infrastructure)
   - [Effectiveness Optimizations](#effectiveness-optimizations)
-    - [Advancing Interaction Modeling Capability](#advancing-interaction-modeling-capability)
-    - [Fine-Grained User Interest Understanding](#fine-grained-user-interest-understanding)
-    - [Incorporating Worldwide Knowledge](#incorporating-worldwide-knowledge)
 - [Datasets](#datasets)
 <!-- - [Future Direction](#future-direction) -->
 - [Acknowledgement](#acknowledgement)
@@ -59,10 +56,17 @@ Trend chart of existing ULBM work on algorithmic optimizations:
 #### Infrastructure
 Industrial-scale ULBM faces strict latency and throughput requirements due to ultra-long sequences, persistent user states, and frequent online inference. Infrastructure optimizations aim to increase throughput, reduce GPU memory and storage, and shorten response time. These optimizations can be categorized into three main types: *custom kernels*, *precision optimization*, and *multi-level caching*.
 
-The infrastructure optimizations of ULBM can be organized along three dimension:
+The infrastructure optimizations of ULBM can be organized along three dimensions:
 
 ![INFRA](fig/infra.png)
 
+### Effectiveness Optimizations
+Effectiveness in ULBM refers to improving the quality of user representations by addressing key limitations: summarizing long-term interactions may lose critical dependencies, overlapping behaviors introduce noise, and relying solely on observed actions limits semantic understanding.  
+To tackle these challenges, effectiveness optimizations focus on three main directions: *advancing interaction modeling*, *fine-grained user interest understanding*, and *incorporating external knowledge*.
+
+The effectiveness optimizations of ULBM can be characterized along three dimensions:
+
+![Effectiveness](fig/effectiveness.png)
 
 
 
