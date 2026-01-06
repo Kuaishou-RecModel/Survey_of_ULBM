@@ -33,7 +33,7 @@ This survey examines ULBM approaches from two complementary perspectives: effici
 
 Through this survey, we aim to provide researchers and practitioners with a comprehensive set of insights and practical references, and to stimulate further exploration of scalable and effective ULBM solutions under real-world constraints.
 
-- The shift of the ROI equilibrium point in industrial scenarios
+The shift of the ROI equilibrium point in industrial scenarios
 
 ![ROI](fig/ROI.png)
 
@@ -46,6 +46,19 @@ This survey covers a wide range of topics relevant to ULBM, including:
 
 ## Efficiency-Effectiveness Balance
 
+### Efficiency Optimizations
+
+#### Algorithmic
+
+ULBM commonly adopts a two-stage paradigm of  *preprocess first, encode later*  to reduce the scale of user behavior sequences and achieve a balance between efficiency and effectiveness. In this context, efficiency-oriented algorithmic optimizations are divided into:
+  - **General Search Unit:** Given a user’s raw behavior sequence $\mathbf{S} = [\mathbf{b}_1, \mathbf{b}_2, \dots, \mathbf{b}_L]$, the most relevant $k$ interactions (typically in the hundreds) are searched based on a *search condition* and a *search function*, forming a subsequence $\mathbf{S}^*$.
+
+  - **Interest Reduction Unit:** Given a user’s raw behavior sequence $\mathbf{S} = [\mathbf{b}_1, \mathbf{b}_2, \dots, \mathbf{b}_L]$, $k$ user interest vectors are obtained based on a reduction strategy and a reduction function, forming a user interest set $\mathcal{S}_{int}$.
+
+
+
+Trend chart of existing ULBM work on algorithmic optimizations:
+![ALO](fig/ROI.png)
 
 
 
