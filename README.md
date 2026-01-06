@@ -16,12 +16,10 @@ We will continue to track and summarize emerging ULBM research, with particular 
     - [Algorithmic](#algorithmic)
     - [Infrastructure](#infrastructure)
   - [Effectiveness Optimizations](#effectiveness-optimizations)
+- [Papers](#papers)
 - [Datasets](#datasets)
-<!-- - [Future Direction](#future-direction) -->
 - [Acknowledgement](#acknowledgement)
 - [How to Contribute](#how-to-contribute)
-<!-- - [Citation](#citation) -->
-<!-- - [Authors](#authors) -->
 
 ## Introduction
 User Lifelong Behavior Modeling (ULBM) aims to capture users’ long-term and continuously evolving preferences by leveraging their lifelong interaction histories. Owing to its defining characteristics, including ultra-long behavior sequences and heterogeneous user actions, deploying ULBM in industrial recommender systems poses substantial challenges in balancing efficiency and effectiveness, which is critical for sustaining a stable return on investment (ROI) as user behavior sequences continue to grow.
@@ -68,5 +66,7 @@ The effectiveness optimizations of ULBM can be characterized along three dimensi
 
 ![Effectiveness](fig/effectiveness.png)
 
+## Papers
 
+## Datasets
 
