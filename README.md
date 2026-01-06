@@ -58,6 +58,7 @@ ULBM commonly adopts a two-stage paradigm of  *preprocess first, encode later*  
 
 
 Trend chart of existing ULBM work on algorithmic optimizations:
+
 ![ALO](fig/alo.png)
 
 
