@@ -33,10 +33,8 @@ This survey examines ULBM approaches from two complementary perspectives: effici
 
 Through this survey, we aim to provide researchers and practitioners with a comprehensive set of insights and practical references, and to stimulate further exploration of scalable and effective ULBM solutions under real-world constraints.
 
-<!-- - Number of publications on generative recommendation indexed in OpenAlex
-![Statistics Image](figures/statistics_v2.png) -->
-
 - The shift of the ROI equilibrium point in industrial scenarios
+
 ![ROI](fig/ROI.png)
 
 
