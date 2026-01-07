@@ -187,6 +187,32 @@ We provide a curated collection of references related to ULBM, including: short-
 
 
 ## Datasets
+We summarize representative datasets for evaluating ULBM methods, covering ultra-long behavior sequences, heterogeneous user actions, and realistic industrial settings.
+
+| Dataset | #Users | #Items | #Interactions | Avg. Length | #Behavior Types |
+|:--|--:|--:|--:|--:|--:|
+| [*Amazon Books*](https://nijianmo.github.io/amazon/index.html) | 694,897 | 686,623 | 10,053,086 | 14.47 | 5 |
+| [*MovieLens-1M*](https://grouplens.org/datasets/movielens/1m/) | 6,040 | 3,416 | 999,611 | 165.50 | 5 |
+| [*MovieLens-20M*](https://grouplens.org/datasets/movielens/20m/) | 138,493 | 26,744 | 20,000,263 | 144.41 | 5 |
+| [*Taobao*](https://tianchi.aliyun.com/dataset/dataDetail?dataId=649) | 987,994 | 4,162,024 | 100,150,807 | 101.37 | 4 |
+| [*Tmall*](https://tianchi.aliyun.com/dataset/dataDetail?dataId=42) | 424,170 | 1,090,390 | 54,925,331 | 129.49 | 4 |
+| [*Alibaba*](https://tianchi.aliyun.com/dataset/dataDetail?dataId=56) | 1,141,729 | 461,527 | 700,000,000 | 613.11 | 4 |
+| [*KuaiRand-Pure*](https://kuairand.com/) | 27,285 | 7,551 | 1,436,609 | 52.65 | 7 |
+| [*KuaiRand-1K*](https://kuairand.com/) | 1,000 | 4,369,953 | 11,713,045 | 11,713.05 | 7 |
+| [*KuaiRand-27K*](https://kuairand.com/) | 27,285 | 32,038,725 | 322,278,385 | 11,811.56 | 7 |
+| [*KuaiRec-Small*](https://kuairec.com/) | 1,411 | 3,327 | 4,676,570 | 3,314.37 | 1 |
+| [*KuaiRec-Big*](https://kuairec.com/) | 7,176 | 10,728 | 12,530,806 | 1,746.21 | 1 |
+| [*KuaiSAR-S*](https://kuaisar.github.io/) | 25,877 | 3,026,189 | 5,059,169 | 195.51 | 4 |
+| [*KuaiSAR-R*](https://kuaisar.github.io/) | 25,877 | 4,046,367 | 14,605,716 | 564.43 | 4 |
+| [*KuaiSAR-all*](https://kuaisar.github.io/) | 25,877 | 6,890,707 | 19,664,885 | 759.94 | 4 |
+| [*TenRec-QK-video*](https://tenrec0.github.io/) | 5,022,750 | 3,753,436 | 493,458,970 | 98.24 | 4 |
+| [*TenRec-QK-article*](https://tenrec0.github.io/) | 1,325,838 | 220,122 | 46,111,728 | 34.78 | 6 |
+| [*TenRec-QB-video*](https://tenrec0.github.io/) | 34,240 | 130,637 | 2,442,299 | 71.33 | 4 |
+| [*TenRec-QB-article*](https://tenrec0.github.io/) | 24,516 | 7,355 | 348,736 | 14.22 | 1 |
+| [*Yambda-50M*](https://huggingface.co/datasets/yandex/yambda) | 10,000 | 934,057 | 48,000,000 | 4,800.00 | 5 |
+| [*Yambda-500M*](https://huggingface.co/datasets/yandex/yambda) | 100,000 | 3,004,578 | 480,000,000 | 4,800.00 | 5 |
+| [*Yambda-5B*](https://huggingface.co/datasets/yandex/yambda) | 1,000,000 | 9,390,623 | 4,800,000,000 | 4,800.00 | 5 |
+
 
 ## Acknowledgement
 
