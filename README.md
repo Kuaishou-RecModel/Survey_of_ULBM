@@ -73,8 +73,10 @@ We provide a curated collection of references related to ULBM, including works o
 
 |  Method   |                                             Paper Title                                              |   Published At    |
 | :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: |
+| *GwEN* |      [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/45530.pdf)      | RecSys'16 |
 | *DIN* |      [Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/abs/1706.06978)      | KDD'18 |
-
+| *DIEN* |      [Deep Interest Evolution Network for Click-Through Rate Prediction](https://arxiv.org/abs/1809.03672)      | AAAI'19 |
+| *BST* |      [Behavior Sequence Transformer for E-commerce Recommendation in Alibaba](https://arxiv.org/abs/1905.06874)      | KDD'19 |
 
 ## Datasets
 
