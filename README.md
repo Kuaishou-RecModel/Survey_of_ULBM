@@ -85,13 +85,13 @@ We provide a curated collection of references related to ULBM, including:
 | *DIEN* |      [Deep Interest Evolution Network for Click-Through Rate Prediction](https://arxiv.org/abs/1809.03672)      | AAAI'19 |
 | *BST* |      [Behavior Sequence Transformer for E-commerce Recommendation in Alibaba](https://arxiv.org/abs/1905.06874)      | KDD'19 |
 
+
 - **Search-based Methods:** Methods that enhance both efficiency and modeling effectiveness by searching behavior subsets most relevant to the current context from long user interaction histories.
 
 |  Method   |                                             Paper Title                                              |   Published At    |
 | :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: |
 | *SIM* |      [Search-based User Interest Modeling with Lifelong Sequential Behavior Data for Click-Through Rate Prediction](https://arxiv.org/abs/2006.05639)      | CIKM'20 |
 | *TWIN* |      [TWIN: TWo-stage Interest Network for Lifelong User Behavior Modeling in CTR Prediction at Kuaishou](https://arxiv.org/abs/2302.02352)      | KDD'23 |
-| *TWIN V2* |      [TWIN V2: Scaling Ultra-Long User Behavior Sequence Modeling for Enhanced CTR Prediction at Kuaishou](https://arxiv.org/abs/2407.16357)      | CIKM'24 |
 | *TransAct V2* |      [TransAct V2: Lifelong User Action Sequence Modeling on Pinterest Recommendation](https://arxiv.org/abs/2506.02267)      | CIKM'25 |
 | *DARE* |      [Long-Sequence Recommendation Models Need Decoupled Embeddings](https://arxiv.org/abs/2410.02604)      | ICLR'25 |
 | *MARM* |      [MARM: Unlocking the Future of Recommendation Systems through Memory Augmentation and Scalable Complexity](https://arxiv.org/abs/2411.09425)      | CIKM'25 |
@@ -99,16 +99,14 @@ We provide a curated collection of references related to ULBM, including:
 | *LCN* |      [Cross Domain LifeLong Sequential Modeling for Online Click-Through Rate Prediction](https://arxiv.org/abs/2312.06424)      | KDD'24 |
 | *LIC* |      [Long-Term Interest Clock: Fine-Grained Time Perception in Streaming Recommendation System](https://arxiv.org/abs/2501.15817)      | WWW'25 |
 | *MIRRN* |      [Multi-granularity interest retrieval and refinement network for long-term user behavior modeling in ctr prediction](https://arxiv.org/abs/2411.15005)      | KDD'25 |
-| *DILN* |      [Interest Changes: Considering User Interest Life Cycle in Recommendation System](https://arxiv.org/abs/2505.08471)      | SIGIR'25 |
 | *LongRetriever* |      [LongRetriever: Towards Ultra-Long Sequence based Candidate Retrieval for Recommendation](https://arxiv.org/abs/2508.15486)      | arXiv'25 |
 | *ETA* |      [End-to-End User Behavior Retrieval in Click-Through RatePrediction Model](https://arxiv.org/abs/2108.04468)      | arXiv'21 |
 | *SDIM* |      [Sampling Is All You Need on Modeling Long-Term User Behaviors for CTR Prediction](https://arxiv.org/abs/2205.10249)      | CIKM'22 |
-| *ADFM* |      [Adversarial Filtering Modeling on Long-term User Behavior Sequences for Click-Through Rate Prediction](https://arxiv.org/abs/2204.11587)      | SIGIR'22 |
 | *CoFARS* |      [Context-based Fast Recommendation Strategy for Long User Behavior Sequence in Meituan Waimai](https://arxiv.org/abs/2403.12566)      | WWW'24 |
 | *UBR4CTR* |      [User Behavior Retrieval for Click-Through Rate Prediction](https://arxiv.org/abs/2005.14171)      | SIGIR'20 |
 | *QIN* |      [Query-dominant User Interest Network for Large-Scale Search Ranking](https://arxiv.org/abs/2310.06444)      | CIKM'23 |
 | *MUSE* |      [MUSE: A Simple Yet Effective Multimodal Search-Based Framework for Lifelong User Interest Modeling](https://arxiv.org/abs/2512.07216)      | arXiv'25 |
-| *HBM* |      [Hierarchical User Long-term Behavior Modeling forClick-Through Rate Prediction](https://dl.acm.org/doi/10.1145/3726302.3730207)      | SIGIR'25 |
+
 
 - **Compression-based Methods:** Methods that transform long behavior sequences into a limited number of compact representations to support scalable and effective user modeling.
 
@@ -130,9 +128,30 @@ We provide a curated collection of references related to ULBM, including:
 | *MIMN* |      [Practice on Long Sequential User Behavior Modeling for Click-Through Rate Prediction](https://arxiv.org/abs/1905.09248)      | KDD'19 |
 | *CAIN* |      [Context-Aware Lifelong Sequential Modeling for Online Click-Through Rate Prediction](https://arxiv.org/abs/2502.12634)      | arXiv'25 |
 | *VISTA* |      [Massive Memorization with Hundreds of Trillions of Parameters for Sequential Transducer Generative Recommenders](https://arxiv.org/abs/2510.22049)      | arXiv'25 |
-| *STCA* |      [Make It Long, Keep It Fast: End-to-End 10k-Sequence Modeling at Billion Scale on Douyin](https://arxiv.org/abs/2511.06077)      | arXiv'25 |
 | *DGIN* |      [Deep Group Interest Modeling of Full Lifelong User Behaviors for CTR Prediction](https://arxiv.org/abs/2311.10764)      | arXiv'23 |
 
+
+- **Hybrid Methods:** Approaches that combine retrieval-based and compression-based strategies to balance efficiency and effectiveness when modeling ultra-long user behavior sequences.
+
+|  Method   |                                             Paper Title                                              |   Published At   | Paradigm       | 
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------:| :--------------|
+| *ADFM* |      [Adversarial Filtering Modeling on Long-term User Behavior Sequences for Click-Through Rate Prediction](https://arxiv.org/abs/2204.11587)      | SIGIR'22 | Compression - Search ｜
+| *HBM* |      [Hierarchical User Long-term Behavior Modeling forClick-Through Rate Prediction](https://dl.acm.org/doi/10.1145/3726302.3730207)      | SIGIR'25 | Compression - Search ｜
+| *TWIN V2* |      [TWIN V2: Scaling Ultra-Long User Behavior Sequence Modeling for Enhanced CTR Prediction at Kuaishou](https://arxiv.org/abs/2407.16357)      | CIKM'24 | Compression - Search ｜
+| *DMGIN* |      [DMGIN: How Multimodal LLMs Enhance Large Recommendation Models for Lifelong User Post-click Behaviors](https://arxiv.org/abs/2508.21801)      | arXiv'25 | Compression - Search ｜
+| *DILN* |      [Interest Changes: Considering User Interest Life Cycle in Recommendation System](https://arxiv.org/abs/2505.08471)      | SIGIR'25 | Search - Compression |
+
+
+- **End-to-End Methods:** Approaches that directly model ultra-long user behavior sequences in a unified framework without explicit preprocessing, enabling holistic preference learning.
+
+|  Method   |                                             Paper Title                                              |   Published At    |
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: |
+| *STCA* |      [Make It Long, Keep It Fast: End-to-End 10k-Sequence Modeling at Billion Scale on Douyin](https://arxiv.org/abs/2511.06077)      | arXiv'25 |
+| *LONGER* |      [LONGER: Scaling Up Long Sequence Modeling in Industrial Recommenders](https://arxiv.org/abs/2505.04421)      | RecSys'25 |
+| *HSTU* |      [Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152)      | ICML'24 |
+| *MTGR* |      [MTGR: Industrial-Scale Generative Recommendation Framework in Meituan](https://arxiv.org/abs/2505.18654)      | CIKM'25 |
+| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv'25 |
+| *Fuxi-$\alpha$* |      [FuXi-α: Scaling Recommendation Model with Feature Interaction Enhanced Transformer](https://arxiv.org/abs/2502.03036)      | WWW'25 |
 
 
 
