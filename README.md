@@ -67,15 +67,7 @@ The effectiveness optimizations of ULBM can be characterized along three dimensi
 ![Effectiveness](fig/effectiveness.png)
 
 ## Papers
-We provide a curated collection of references related to ULBM, including:
-- short-sequence modeling,
-- search-based methods,
-- compression-based methods,
-- Hybrid methods,
-- End-to-End methods,
-- Methods on heterogeneous user behaviors,
-- Methods on user interest,
-- Methods on incorporation of external knowledge.
+We provide a curated collection of references related to ULBM, including: short-sequence modeling, search-based methods, compression-based methods, Hybrid methods, End-to-End methods, Methods on heterogeneous user behaviors, Methods on user interest, Methods on incorporation of external knowledge.
 
 - **Short-sequence Modeling:** Early and foundational methods that provide essential modeling principles for capturing user preferences through short-term interaction dynamics.
 
