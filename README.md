@@ -224,4 +224,5 @@ This research was conducted as a collaboration between University of Science and
 </table>
 
 ## How to Contribute
+We welcome contributions from the community! If you have suggestions, improvements, or want to add papers to the reading list, feel free to submit an issue on [GitHub Issues](https://github.com/Kuaishou-RecModel/Survey_of_ULBM/issues).
 
