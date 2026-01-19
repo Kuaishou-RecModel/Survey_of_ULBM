@@ -64,7 +64,7 @@ To tackle these challenges, effectiveness optimizations focus on three main dire
 
 The effectiveness optimizations of ULBM can be characterized along three dimensions:
 
-![Effectiveness](fig/effectiveness.png)
+![Effectiveness](fig/Effectiveness.png)
 
 ## Papers
 We provide a curated collection of references related to ULBM, including: short-sequence modeling, search-based methods, compression-based methods, Hybrid methods, End-to-End methods, Methods on heterogeneous user behaviors, Methods on user interest, Methods on incorporation of external knowledge.
