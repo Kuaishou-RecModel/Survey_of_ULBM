@@ -2,7 +2,7 @@
 # A Survey of User Lifelong Behavior Modeling: Perspectives on Efficiency and Effectiveness
 
 ## Overview
-This is the official repository of the paper "A Survey of User Lifelong Behavior Modeling: Perspectives on Efficiency and Effectiveness"
+This is the official repository of the paper ["*A Survey of User Lifelong Behavior Modeling: Perspectives on Efficiency and Effectiveness*"](https://www.preprints.org/manuscript/202601.1559)
 
 This survey provides an in-depth examination of existing User Lifelong Behavior Modeling (ULBM) methods from an industrial perspective, with a particular focus on their performance under the efficiency–effectiveness balance, aiming to sustain a stable return on investment (ROI) as user lifelong behavior sequences continue to grow.
 
