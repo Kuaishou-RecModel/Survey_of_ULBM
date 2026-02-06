@@ -112,6 +112,7 @@ We provide a curated collection of references related to ULBM, including: short-
 | *UBR4CTR* |      [User Behavior Retrieval for Click-Through Rate Prediction](https://arxiv.org/abs/2005.14171)      | SIGIR'20 |
 | *QIN* |      [Query-dominant User Interest Network for Large-Scale Search Ranking](https://arxiv.org/abs/2310.06444)      | CIKM'23 |
 | *MUSE* |      [MUSE: A Simple Yet Effective Multimodal Search-Based Framework for Lifelong User Interest Modeling](https://arxiv.org/abs/2512.07216)      | arXiv'25 |
+| *RAL-CDNet* |      [Retrieval Augmented Cross-Domain LifeLong Behavior Modelingfor Enhancing Click-through Rate Prediction](https://dl.acm.org/doi/10.1145/3711896.3737261)      | KDD'25 |
 
 
 - **Compression-based Methods:** Methods that transform long behavior sequences into a limited number of compact representations to support scalable and effective user modeling.
@@ -135,6 +136,9 @@ We provide a curated collection of references related to ULBM, including: short-
 | *CAIN* |      [Context-Aware Lifelong Sequential Modeling for Online Click-Through Rate Prediction](https://arxiv.org/abs/2502.12634)      | arXiv'25 |
 | *VISTA* |      [Massive Memorization with Hundreds of Trillions of Parameters for Sequential Transducer Generative Recommenders](https://arxiv.org/abs/2510.22049)      | arXiv'25 |
 | *DGIN* |      [Deep Group Interest Modeling of Full Lifelong User Behaviors for CTR Prediction](https://arxiv.org/abs/2311.10764)      | arXiv'23 |
+| *LLaTTE* |      [LLaTTE: Scaling Laws for Multi-Stage Sequence Modeling in Large-Scale Ads Recommendation](https://arxiv.org/abs/2601.20083)      | arXiv'26 |
+| *SparseCTR* |      [Unleashing the Potential of Sparse Attention on Long-term Behaviors for CTR Prediction](https://arxiv.org/abs/2601.17836)      | WWW'26 |
+
 
 
 - **Hybrid Methods:** Approaches that combine retrieval-based and compression-based strategies to balance efficiency and effectiveness when modeling ultra-long user behavior sequences. Here, *C+S* means compression first,search later and *S+C* means search first,compression later.
